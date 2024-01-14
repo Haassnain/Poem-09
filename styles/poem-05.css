@@ -1,0 +1,62 @@
+/* importing font pink chicken */
+@import url('https://fonts.cdnfonts.com/css/pink-chicken');
+
+ /* * importing poppins font family  */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.container {
+    height: 100vh;
+}
+
+/* navbar */
+.navbar {
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    display: flex;
+}
+
+.ul-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.li-list {
+    margin: 20px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover {
+    color: greenyellow;
+}
+
+/* heading */
+.heading-01 {
+    text-align: center;
+    font-size: 70px;
+    color: rgb(0, 255, 42);
+    font-family: 'Pink Chicken', sans-serif;
+}
+.heading-01::first-letter {
+    color: aqua;
+    font-size: 120px;
+}
+.para {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    color: teal;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+#para-01 {
+    color: brown;
+}

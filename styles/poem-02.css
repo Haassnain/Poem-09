@@ -1,0 +1,59 @@
+/* importing pacifico font familu */
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@500&display=swap');
+
+  /* importing poppins font family */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.container {
+    height: 100vh;
+}
+/* navbar */
+.navbar {
+    background-color: blueviolet;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ul-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    margin: 0px;
+} 
+.li-list {
+    font-size: 30px;
+    padding: 20px;
+    margin: 30px;
+}
+.links {
+    text-decoration: none;
+    color: white;
+  }
+  .links:hover{
+    color: greenyellow;
+  }
+  /* heading */
+  .head-one {
+    text-align: center;
+    font-size: 70px;
+    color: chocolate;
+    font-family: 'Pacifico', cursive;
+  }
+  .head-one::first-letter{
+    color: yellow;
+    font-size: 120px;
+  }
+  /* paragraph */
+  .para {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: teal;
+    font-size: 25px;
+  }
+  #para-01 {
+    color: brown;
+  }

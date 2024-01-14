@@ -1,0 +1,59 @@
+  /* imorting font satisfy */
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+ /* importing poppins font family */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.cotainer {
+    height: 100vh;
+}
+/* navbar */
+.navbar {
+    background-color: blueviolet;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ul-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+}
+.li-list {
+    margin: 30px;
+    padding: 20px;
+    font-size: 30px;
+}
+.links {
+    text-decoration: none;
+    color: white;
+}
+.links:hover {
+    color: greenyellow;
+}
+/* heading */
+
+.heading-01 {
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    font-family: 'Satisfy', cursive;
+}
+.heading-01::first-letter {
+    font-size: 120px;
+    color: chartreuse;
+}
+/* paragraph */
+.para {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: teal;
+    font-weight: bold;
+}
+#para-01 {
+    color: brown;
+}

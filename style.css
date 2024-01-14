@@ -1,0 +1,68 @@
+  /* importing luckiest guy fomt family */
+  @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+  /* importing poppins font family */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+  .container {
+      height: 100vh;
+  }
+
+  /* navar */
+  .navbar {
+      background-color: blueviolet;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .ul-list {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      color: white;
+      margin: 0px;
+  }
+
+  .li-list {
+      font-size: 30px;
+      padding: 20px;
+      margin: 30px;
+  }
+
+  .links {
+      text-decoration: none;
+      color: white;
+  }
+
+  .links:hover {
+      color: greenyellow;
+  }
+
+  /* heading */
+  .head-01 {
+      text-align: center;
+      font-size: 70px;
+      font-family: 'Luckiest Guy', cursive;
+      color: aqua;
+  }
+
+  .head-01::first-letter {
+      color: greenyellow;
+      font-size: 120px;
+  }
+
+  /* paragraph */
+  .para {
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+      color: teal;
+      justify-self: center;
+  }
+  #para-01 {
+      color: brown;
+  }
